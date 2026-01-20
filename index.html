@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Randika | Cybersecurity Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity portfolio of Randika - Bug hunting, system security, and ethical hacking">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-box">
+    <div class="loader-bar"></div>
+    <span>Loading...</span>
+  </div>
+</div>
+
+<!-- Rain -->
+<canvas id="matrix"></canvas>
+
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo">
+        <span>&gt;</span> randika
+        <span class="portfolio-badge">Portfolio</span>
+      </div>
+      <nav class="nav" id="mainNav">
+        <a href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="#about"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="#skills"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="#education"><i class="fas fa-graduation-cap"></i><span>Education</span></a>
+        <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Portfolio Banner -->
+  <div class="portfolio-banner">
+    <div class="container">
+      <span><i class="fas fa-laptop-code"></i> Cybersecurity Portfolio</span>
+    </div>
+  </div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="status"><i class="fas fa-shield-alt"></i> ACTIVE · SECURITY MINDSET</span>
+        <h1 class="hero-title">
+          Cybersecurity Student<br>
+          & Bug Hunter
+        </h1>
+        <p class="hero-desc">
+          Learning systems deeply. Hunting bugs patiently.
+        </p>
+        
+        <div class="contact-buttons">
+          <a href="https://t.me/randika.xyz" class="contact-btn telegram" target="_blank" rel="noopener">
+            <i class="fab fa-telegram"></i> Telegram
+          </a>
+          <a href="https://wa.me/94728914194" class="contact-btn whatsapp" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="Assets/my.png" alt="Randika">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE STRIP -->
+<section class="quote-strip">
+  <div class="container">
+    <p>
+      <i class="fas fa-quote-left"></i>
+      Security is not a product — it's a process.
+      <i class="fas fa-quote-right"></i>
+      <span class="quote-author">— Kevin Mitnick</span>
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-user"></i> About</h2>
+    <div class="about-content">
+      <div class="typing-area">
+        <div id="typing-text"></div>
+        <div id="typing-source" style="display: none;">
+I'm Randika, 17 years old, focused on cybersecurity and system analysis. 
+I don't aim to be known — I aim to be effective.
+
+Cybersecurity is not just my interest, it's my instinct. 
+I look at systems asking "where is the weakness?" and "what did everyone miss?".
+
+I work like a hunter — testing, repeating — until a bug shows itself. 
+I work ethically, chasing understanding.
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat-item">
+          <div class="stat-number">17</div>
+          <div class="stat-label">Age</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">Student</div>
+          <div class="stat-label">Status</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">Cybersecurity</div>
+          <div class="stat-label">Focus</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section bg-dark">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-code"></i> Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Security</h3>
+        <p>Bug hunting, system analysis</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Dev</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-terminal"></i>
+        <h3>Linux</h3>
+        <p>System administration</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Tools</h3>
+        <p>Joomla, Git, Python</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-graduation-cap"></i> Education</h2>
+    <div class="education-list">
+      <div class="edu-item">
+        <h3><i class="fas fa-book"></i> Ordinary Level (O/L)</h3>
+        <span class="edu-status">Completed</span>
+      </div>
+      <div class="edu-item">
+        <h3><i class="fas fa-university"></i> Foundation – IJSE</h3>
+        <span class="edu-status">Completed</span>
+      </div>
+      <div class="edu-item">
+        <h3><i class="fas fa-graduation-cap"></i> Computer Science</h3>
+        <span class="edu-status ongoing">Ongoing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFICATIONS -->
+<section id="qualifications" class="section bg-dark">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-certificate"></i> Qualifications</h2>
+    <div class="qualifications-grid">
+      <div class="qualification-card">
+        <div class="qualification-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Full Stack Web Dev</h3>
+        <p>University of Moratuwa</p>
+      </div>
+      <div class="qualification-card">
+        <div class="qualification-icon"><i class="fas fa-cogs"></i></div>
+        <h3>Joomla CMS</h3>
+        <p>Ministry of Education</p>
+      </div>
+      <div class="qualification-card unknown">
+        <div class="qualification-icon"><i class="fas fa-user-secret"></i></div>
+        <h3>Unknown</h3>
+        <p>Pending</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SETUP -->
+<section id="setup" class="section">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-desktop"></i> Setup</h2>
+    <div class="setup-content">
+      <p>Where I learn, test, and understand systems.</p>
+      <div class="setup-image">
+        <img src="Assets/setup.jpg" alt="Workstation">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-dark">
+  <div class="container">
+    <h2><span>&gt;</span> <i class="fas fa-envelope"></i> Contact</h2>
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fab fa-telegram"></i>
+        <div>
+          <h3>Telegram</h3>
+          <a href="https://t.me/randika.xyz" target="_blank">@randika.xyz</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/94728914194" target="_blank">+94 72 891 4194</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>Email</h3>
+          <a href="mailto:randika.xyz@gmail.com">randika.xyz@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-github"></i>
+        <div>
+          <h3>GitHub</h3>
+          <a href="https://github.com/randika.xyz" target="_blank">randika.xyz</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p> Portfolio Made by Randika © 2026</p>
+      <p class="footer-tag"><i class="fas fa-shield-alt"></i> </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* Loader */
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("loader").classList.add("hide");
+  }, 600);
+});
+
+/* Mobile Menu */
+const menuToggle = document.getElementById('menuToggle');
+const mainNav = document.getElementById('mainNav');
+
+menuToggle.addEventListener('click', () => {
+  mainNav.classList.toggle('active');
+  menuToggle.classList.toggle('active');
+});
+
+document.querySelectorAll('.nav a').forEach(link => {
+  link.addEventListener('click', () => {
+    mainNav.classList.remove('active');
+    menuToggle.classList.remove('active');
+  });
+});
+
+/* Typing Animation */
+const typingText = document.getElementById('typing-text');
+const sourceText = document.getElementById('typing-source').textContent;
+let charIndex = 0;
+let startedTyping = false;
+
+function typeWriter() {
+  if (charIndex < sourceText.length) {
+    if (sourceText.charAt(charIndex) === '\n') {
+      typingText.innerHTML += '<br>';
+    } else {
+      typingText.innerHTML += sourceText.charAt(charIndex);
+    }
+    charIndex++;
+    setTimeout(typeWriter, 30);
+  }
+}
+
+const typingObserver = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting && !startedTyping) {
+    startedTyping = true;
+    typeWriter();
+  }
+}, { threshold: 0.3 });
+
+typingObserver.observe(typingText);
+
+/* Smooth Scroll */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    if(targetId === '#') return;
+    
+    const targetElement = document.querySelector(targetId);
+    if(targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 80,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+/* Rain Effect */
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
+
+const chars = "01";
+const size = 12;
+let drops = Array(Math.floor(canvas.width / size)).fill(0);
+
+function drawMatrix() {
+  ctx.fillStyle = "rgba(14, 17, 23, 0.04)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  
+  ctx.fillStyle = "#22c55e";
+  ctx.font = `${size}px JetBrains Mono`;
+  
+  for(let i = 0; i < drops.length; i++) {
+    const text = chars[Math.floor(Math.random() * chars.length)];
+    const x = i * size;
+    const y = drops[i] * size;
+    
+    ctx.fillText(text, x, y);
+    
+    if(y > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+    drops[i]++;
+  }
+}
+
+setInterval(drawMatrix, 80);
+</script>
+
+</body>
+</html>
